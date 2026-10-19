@@ -1,0 +1,17 @@
+services:
+  studio:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      DATABASE_URL: ${DATABASE_URL:?Defina a ligacao da base existente em DATABASE_URL}
+      PUBLIC_URL: ${PUBLIC_URL:?Defina o URL HTTPS final em PUBLIC_URL}
+      PALACE_RESERVATION_SECRET: ${PALACE_RESERVATION_SECRET:?Defina o segredo partilhado com o website}
+      CRM_RETENTION_MONTHS: ${CRM_RETENTION_MONTHS:-24}
+      SETUP_TOKEN: ${SETUP_TOKEN:-}
+      DATA_DIR: /var/lib/palace
+    volumes:
+      - assets:/var/lib/palace
+    restart: unless-stopped
+volumes:
+  assets:

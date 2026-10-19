@@ -1,0 +1,9 @@
+node_modules
+.next
+.env*
+data
+test-results
+playwright-report
+.git
+.DS_Store
+logo

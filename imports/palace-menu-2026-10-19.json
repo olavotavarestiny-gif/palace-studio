@@ -1,0 +1,48 @@
+{
+  "source": "Menu Palace Lounge de 19-10-2026, transcrito da imagem fornecida pelo utilizador.",
+  "currency": "AOA",
+  "categories": [
+    {
+      "name": "Sopa",
+      "dishes": [
+        { "name": "Caldo Verde", "price": 5000 }
+      ]
+    },
+    {
+      "name": "Entrada do Dia",
+      "dishes": [
+        { "name": "Ostra da Tasão", "price": 12000 }
+      ]
+    },
+    {
+      "name": "Sugestões do Chefe — Peixe e Marisco",
+      "dishes": [
+        { "name": "Mista de Frito c/Arroz com Feijão", "price": 20000 },
+        { "name": "Polvo à Lagareiro", "price": 21500 },
+        { "name": "Atum ao Alho", "price": 20000 },
+        { "name": "Cabeça de Cherne Grelhada c/Batata Cozida e Legumes", "price": 22000 }
+      ]
+    },
+    {
+      "name": "Carne",
+      "dishes": [
+        { "name": "Barriga de Porco na Brasa c/Funge", "price": 23500 },
+        { "name": "Bitoque de Novilho", "price": 26000 },
+        { "name": "Frango da Guia", "price": 17000 }
+      ]
+    },
+    {
+      "name": "Peixe para Grelhar",
+      "dishes": [
+        { "name": "Garoupinha", "price": 20000 },
+        { "name": "Cherne", "price": 22000 },
+        { "name": "Linguado", "price": 18000 },
+        { "name": "Salmão", "price": 40000 },
+        { "name": "Robalo", "description": "Peso aproximado: 580 g.", "price": 40000 },
+        { "name": "Dourada", "description": "Peso aproximado: 470 g.", "price": 40000 },
+        { "name": "Choco", "price": 20000 },
+        { "name": "Pregado (por kg)", "description": "Preço por quilograma.", "price": 100000 }
+      ]
+    }
+  ]
+}
